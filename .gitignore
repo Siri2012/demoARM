@@ -7,3 +7,4 @@ cypress/fixtures/example.json
 /cypress/results
 /cypress/snapshots
 /cypress/screenshots
+/.vscode
