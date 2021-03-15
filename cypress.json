@@ -1,0 +1,24 @@
+{
+  "testFiles": "**/*.spec.js",
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 10000,
+  "requestTimeout": 10000,
+  "video": false,
+  "videoUploadOnPasses": false,
+  "experimentalSourceRewriting": false,
+  "experimentalRunEvents": false,
+  "failOnStatusCode": false,
+  "screenshotsFolder": "./cypress/snapshots/actual",
+  "trashAssetsBeforeRuns": true,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/html",
+      "quite": true,
+      "overwrite": true,
+      "html": true
+    }
+  },
+  "projectId": "y9a7gq"
+}
