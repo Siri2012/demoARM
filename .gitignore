@@ -3,7 +3,6 @@
 notes.txt
 cypress/notes
 cypress/fixtures/example.json
-/cypress/reports
 /cypress/results
 /cypress/snapshots
 /cypress/screenshots
