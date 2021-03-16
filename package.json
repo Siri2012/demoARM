@@ -5,7 +5,7 @@
   "scripts": {
     "test": "cypress open",
     "headless": "./node_modules/.bin/cypress run --spec cypress/integration/specs/swordgrc.spec.js",
-    "browser:chrome": "./node_modules/.bin/cypress run --spec cypress/integration/specs/swordgrc.spec.js --browser chrome ",
+    "headed:chrome": "./node_modules/.bin/cypress run --spec cypress/integration/specs/swordgrc.spec.js --browser chrome ",
     "cypress:report": "generate-mochawesome-report"
 
   },
