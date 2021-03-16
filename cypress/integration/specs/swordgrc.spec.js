@@ -8,7 +8,7 @@ import ConfirmPage from "../pom/pages/confirm.page";
 import SearchComponent from "../pom/components/search.comp";
 
 describe("Explore Sword GRC", () => {
-  it("Verify Home Page", () => {
+  it("Navigate to ARM and book a Demo", () => {
     //To view in iPhone-5 preset
     //cy.viewport("iphone-6");
 
